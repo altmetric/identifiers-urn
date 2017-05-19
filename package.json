@@ -2,7 +2,10 @@
   "name": "identifiers-urn",
   "version": "0.1.0",
   "description": "Extract, validate and normalize URNs.",
-  "keywords": ["urn", "identifiers"],
+  "keywords": [
+    "urn",
+    "identifiers"
+  ],
   "main": "./lib/urn.js",
   "repository": "https://github.com/altmetric/identifiers-urn",
   "bugs": "https://github.com/altmetric/identifiers-urn/issues",
@@ -12,12 +15,17 @@
     "node": ">= 4"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
     "eslint": "^3.15.0",
     "jest": "^18.1.0"
   },
   "scripts": {
-    "pretest": "eslint lib tests",
-    "test": "jest"
+    "pretest": "yarn compile && eslint src tests",
+    "test": "jest",
+    "compile": "babel src -d lib",
+    "prepublish": "yarn compile"
   },
   "jest": {
     "testEnvironment": "node"
