@@ -2,7 +2,7 @@
 
 Extract, validate and normalize [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name).
 
-**Current version:** 0.1.0  
+**Current version:** 0.1.1  
 **Supported Node.js versions:** 4, 5, 6, 7
 
 ## Installation
