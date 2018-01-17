@@ -40,7 +40,7 @@ National Clinical Trials IDs: https://github.com/altmetric/identifiers-nct
 ADS Bibcodes : https://github.com/altmetric/identifiers-bibcode  
 RePEc IDs: https://github.com/altmetric/identifiers-repec  
 
-We also maintain versions of this libraries for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
+We also maintain versions of these libraries for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
 
 ## License
 
