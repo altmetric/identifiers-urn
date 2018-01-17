@@ -34,7 +34,7 @@ Other packages are available for different scholar identifiers:
 DOIs (and ISBN-As): https://github.com/altmetric/identifiers-doi  
 PubMed IDs: https://github.com/altmetric/identifiers-pubmed  
 arXiv IDs: https://github.com/altmetric/identifiers-arxiv  
-ORCID: https://github.com/altmetric/identifiers-orcid
+ORCID: https://github.com/altmetric/identifiers-orcid  
 Handles: https://github.com/altmetric/identifiers-handle  
 National Clinical Trials IDs: https://github.com/altmetric/identifiers-nct  
 ADS Bibcodes : https://github.com/altmetric/identifiers-bibcode  
