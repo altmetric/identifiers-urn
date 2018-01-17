@@ -39,7 +39,6 @@ Handles: https://github.com/altmetric/identifiers-handle
 National Clinical Trials IDs: https://github.com/altmetric/identifiers-nct  
 ADS Bibcodes : https://github.com/altmetric/identifiers-bibcode  
 RePEc IDs: https://github.com/altmetric/identifiers-repec  
-URNs: https://github.com/altmetric/identifiers-urn  
 
 We also maintain versions of this libraries for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
 
