@@ -2,7 +2,7 @@
 
 Extract, validate and normalize [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name).
 
-**Current version:** 0.1.1  
+**Current version:** 0.2.0  
 **Supported Node.js versions:** 4, 5, 6, 7
 
 ## Installation
@@ -10,7 +10,7 @@ Extract, validate and normalize [URNs](https://en.wikipedia.org/wiki/Uniform_Res
 Add the following to your `package.json` via `yarn add identifiers-urn` or `npm install --save identifiers-urn`:
 
 ```shell
-"identifiers-urn": "^0.1.0"
+"identifiers-urn": "^0.2.0"
 ```
 
 ## Usage
