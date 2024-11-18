@@ -1,9 +1,9 @@
-# Identifiers - URN [![Build Status](https://travis-ci.org/altmetric/identifiers-urn.svg?branch=master)](https://travis-ci.org/altmetric/identifiers-urn)
+# Identifiers - URN
 
 Extract, validate and normalize [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name).
 
 **Current version:** 0.2.0  
-**Supported Node.js versions:** 4, 5, 6, 7
+**Supported Node.js versions:** 18, 20, 22, 23
 
 ## Installation
 
@@ -44,6 +44,6 @@ We also maintain versions of these libraries for [Ruby](https://github.com/altme
 
 ## License
 
-Copyright © 2018 Altmetric LLP
+Copyright © 2017-2024 Altmetric LLP
 
 Distributed under the [MIT License](http://opensource.org/licenses/MIT).
