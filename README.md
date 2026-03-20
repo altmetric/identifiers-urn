@@ -1,49 +1,19 @@
-# Identifiers - URN
+# This package has been deprecated
 
-Extract, validate and normalize [URNs](https://en.wikipedia.org/wiki/Uniform_Resource_Name).
+This package has been consolidated into [@altmetric/identifiers](https://github.com/altmetric/identifiers-js).
 
-**Current version:** 0.2.0  
-**Supported Node.js versions:** 18, 20, 22, 23
+## Migration
 
-## Installation
+Replace:
 
-Add the following to your `package.json` via `yarn add identifiers-urn` or `npm install --save identifiers-urn`:
-
-```shell
-"identifiers-urn": "^0.2.0"
+```js
+import { extract } from 'identifiers-urn';
 ```
 
-## Usage
+With:
 
-Use `extract` to extract all URNs normalised, or `scan` to obtain the originals.
-
-```javascript
-const urn = require("identifiers-urn");
-
-urn.extract("En un pueblo italiano urn:1234:abc al pie de la montaña URN:Foo:bar%23.\\");
-//=> ["urn:1234:abc", "urn:foo:bar%23."]
-
-urn.scan("En un pueblo italiano urn:1234:abc al pie de la montaña URN:Foo:bar%23.\\");
-//=> ["urn:1234:abc", "URN:Foo:bar%23."]
+```js
+import { extract } from '@altmetric/identifiers/urn';
 ```
 
-## Other versions
-
-Other packages are available for different scholar identifiers:
-
-DOIs (and ISBN-As): https://github.com/altmetric/identifiers-doi  
-PubMed IDs: https://github.com/altmetric/identifiers-pubmed  
-arXiv IDs: https://github.com/altmetric/identifiers-arxiv  
-ORCID: https://github.com/altmetric/identifiers-orcid  
-Handles: https://github.com/altmetric/identifiers-handle  
-National Clinical Trials IDs: https://github.com/altmetric/identifiers-nct  
-ADS Bibcodes : https://github.com/altmetric/identifiers-bibcode  
-RePEc IDs: https://github.com/altmetric/identifiers-repec  
-
-We also maintain versions of these libraries for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
-
-## License
-
-Copyright © 2017-2024 Altmetric LLP
-
-Distributed under the [MIT License](http://opensource.org/licenses/MIT).
+See the [@altmetric/identifiers README](https://github.com/altmetric/identifiers-js#readme) for full documentation.
